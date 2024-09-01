@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Boxes Bounce</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+
+    <style>
+      * {
+        background-color: rgb(25, 24, 24);
+      }
+      .above {
+        position: absolute;
+        z-index: 100;
+        left: 800px;
+        top: 1px;
+        text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+<div>
+<h2 style="text-align: center; color: royalblue;" class="above">
+  (Ps 109:23) I am gone like the shadow when it declineth: I am tossed up and down as the locust.
+
+(Pr 21:6) The getting of treasures by a lying tongue is a vanity tossed to and fro of them that seek death.
+
+(Isa 54:11) O thou afflicted, tossed with tempest, and not comforted, behold, I will lay thy stones with fair colours, and lay thy foundations with sapphires.
+
+(Mt 14:24) But the ship was now in the midst of the sea, tossed with waves: for the wind was contrary.
+
+(Acts 27:18) And we being exceedingly tossed with a tempest, the next day they lightened the ship;
+
+(Eph 4:14) That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;
+
+(Jas 1:6) But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.
+</h2>
+
+</div>
+
+
+
+
+    <canvas id='game' width="1000px" height="1000px"></canvas>
+    <script src="raylib.js"></script>
+    <script>
+      const raylibjs = new RaylibJs();
+      raylibjs.start({
+          wasmPath: 'demo.wasm',
+          canvasId: 'game',
+      });
+    </script>
+  </body>
+</html>
